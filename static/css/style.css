@@ -1,15 +1,53 @@
-.jumbotron {
-    background-image: url("/Images/virus.jpg");
+body {
+
+    color: black;
+    font-family: Verdana;
+  }
+
+  .jumbotron {
+    background-image: url('../images/lab2.jpg');
     background-size: 100% 100%;
+    opacity: 0.7;
     text-align: center;
-    color: white;
+    color: aliceblue;
+    /* text-shadow: 3px 3px 8px whitesmoke; */
+    
+  } 
+
+  .well {
+background-color: aliceblue;
+font-family: Verdana;
+font-weight: 90;
+font-size: smaller;
+
+
+  }
+
+  .panel {
+    background-color: aliceblue;
+    font-family: Verdana;
+    font-weight: 90;
+    
+      }
+
+
+#know {
+  font-family: Verdana;
+  font-weight: 90;
+  font-size: medium;
+  background-color: whitesmoke;
 }
 
-.jumbotron p {
-    font-size: 30px;
-    font-weight: 500;
+#otu {
+  font-family: Verdana;
+  font-weight: 90;
+  font-size: medium;
+  background-color: whitesmoke;
 }
 
-.boxed {
-    border: 10px solid black ;
+#scrub{
+  font-family: Verdana;
+  font-weight: 90;
+  font-size: medium;
+  background-color: whitesmoke;
 }
